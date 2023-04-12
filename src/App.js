@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import UseImperitiveHandler from "./hooks/UseImperativeHandler/parent";
+import CallBackContainer from "./hooks/useCallBack/callBackContainer";
+import ContextContainer from "./hooks/useContext/contextContainer";
+import MemoContainer from "./hooks/useMemo/container";
+import UseReducer from "./hooks/useReducer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <UseReducer /> */}
+      {/* <UseImperitiveHandler /> */}
+      {/* <ContextContainer /> */}
+      {/* <MemoContainer /> */}
+      <CallBackContainer />
     </div>
   );
 }
